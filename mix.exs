@@ -59,7 +59,7 @@ defmodule BamlPhx.MixProject do
       {:jason, "~> 1.2"},
       {:dns_cluster, "~> 0.1.1"},
       {:bandit, "~> 1.5"},
-      {:baml_elixir, "~> 1.0.0-pre.12"}
+      {:baml_elixir, "~> 1.0.0-pre.13"}
     ]
   end
 
