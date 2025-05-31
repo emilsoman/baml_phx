@@ -1,0 +1,5 @@
+# Python
+__pycache__/
+.direnv/
+baml_client/
+.deepeval/
