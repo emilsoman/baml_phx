@@ -1,28 +1,21 @@
 # Project Setup
 
-This project uses Python 3 with direnv for environment management.
+This project uses Python 3 with uv for environment management.
 
 ## Prerequisites
 
-- [direnv](https://direnv.net/) - For managing project-specific environment variables
+- [uv](https://docs.astral.sh/uv/) - For managing project-specific environment variables
 - Python 3.x
 
 ## Setup Instructions
 
-Add the following to your `.envrc` file:
-
 ```bash
-layout python3
+uv sync
 ```
 
-Then run `direnv allow` to allow direnv to manage the python virtual environment.
-
-## Installing Dependencies
-
-After setting up direnv, install the project dependencies:
+## Running Tests
 
 ```bash
-pip install -r requirements.txt
+# Ensure OPENAI_API_KEY is set in the environment
+uv run deepeval test run evals
 ```
-
-This will install all required packages, including deepeval.

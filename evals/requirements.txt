@@ -1,2 +1,0 @@
-deepeval>=0.1.0
-baml-py>=0.1.0

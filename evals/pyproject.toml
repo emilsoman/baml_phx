@@ -1,0 +1,10 @@
+[project]
+name = "evals"
+version = "0.1.0"
+description = "Evals for BAML"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "deepeval>=0.1.0",
+    "baml-py==0.82.0",
+]
